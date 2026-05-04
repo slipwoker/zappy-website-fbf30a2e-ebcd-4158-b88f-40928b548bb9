@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
 
@@ -177,7 +177,9 @@
   --gradient-overlay-dark: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 100%);
   --gradient-light-section: linear-gradient(180deg, #FFFFFF 0%, #F5F0EB 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.85) 100%);
-}
+
+  --heading-font: 'Nunito', sans-serif;
+  --font-heading: 'Nunito', sans-serif;}
 
 *,
 *::before,
@@ -237,7 +239,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: var(--text-dark);
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -2361,7 +2363,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* H1 */
 .home-hero-section .home-hero-h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
